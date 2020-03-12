@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html * {
+body * {
     background-color: rgb(146,212,59);
     color: white;
 }
@@ -58,15 +58,20 @@ body a {
     text-decoration: none;
 }
 
-.buy-btn {
+.view-more-btn {
     background-color: hotpink;
 }
 
-.new-releases {
+.hot-releases-title a {
+  
+    color: black;
+}
+
+/*Styling the footer */
+.footer-items {
     background-color: white !important;
 }
 
-.hot-releases-title a {
-    color: black;
-    text-decoration: none;
+.feedback-btn {
+    background-color: white;
 }
