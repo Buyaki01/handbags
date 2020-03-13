@@ -71,6 +71,11 @@ body a {
     text-decoration: none;
 }
 
+.showmore-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .money {
     color: #d40d9a;
 }
