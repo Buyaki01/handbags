@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-/*body * {
-    background-color: rgb(146,212,59);
-    color: white;
-}*/
-
 body a {
     text-decoration: none;
     color: white;
@@ -28,9 +23,12 @@ body a {
     color: white;
 }
 
-.top-nav {
+.top-nav, .main-content, .top-rated {
     background-color: rgb(146,212,59);
     color: white;
+}
+
+.top-nav {
     display: grid;
     grid-template-columns: repeat(2, 50%);
 }
@@ -39,7 +37,6 @@ body a {
     display: flex;
     justify-content: center;
 }
-
 
 .nav-links{
     display: flex;
@@ -60,9 +57,36 @@ body a {
     text-decoration: none;
 }
 
+/* Styling the hot new releases */
 .hot-releases-title a {
-  
     color: black;
+}
+
+.new-releases {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 2fr) 1fr;
+    grid-template-rows: 40px 300px;
+}
+
+.hot-releases-title {
+    grid-column: 2 /span 2;
+    grid-row: 1;
+    border: 1px solid red;
+}
+
+.hot-releases-image1 {
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid goldenrod;
+}
+
+.hot-releases-image2 {
+    grid-column: 3;
+    grid-row: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%;
+    border: 1px solid aqua;
 }
 
 /* Styling the cardbody section */
@@ -100,6 +124,25 @@ body a {
 .btn {
     background-color: #d40d9a;
     color: white;
+}
+
+/* Styling the add to cart page */
+.contact-information a {
+    color: black;
+}
+
+.contact-information a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.items-selected a {
+    color: black;
+}
+
+.items-selected a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 /*Styling the footer */
