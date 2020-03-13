@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-body * {
+/*body * {
     background-color: rgb(146,212,59);
     color: white;
-}
+}*/
 
 body a {
     text-decoration: none;
@@ -29,6 +29,8 @@ body a {
 }
 
 .top-nav {
+    background-color: rgb(146,212,59);
+    color: white;
     display: grid;
     grid-template-columns: repeat(2, 50%);
 }
@@ -58,13 +60,41 @@ body a {
     text-decoration: none;
 }
 
-.view-more-btn {
-    background-color: hotpink;
-}
-
 .hot-releases-title a {
   
     color: black;
+}
+
+/* Styling the cardbody section */
+.seemore-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.money {
+    color: #d40d9a;
+}
+
+.card-body a {
+    color: black;
+}
+
+.card-body a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.review {
+    color: #d40d9a;
+}
+
+.no-review {
+    color: grey;
+}
+
+.btn {
+    background-color: #d40d9a;
+    color: white;
 }
 
 /*Styling the footer */
@@ -73,5 +103,14 @@ body a {
 }
 
 .feedback-btn {
-    background-color: white;
+    background-color: rgb(146,212,59);
+}
+
+.fcopyright a {
+    color: black;
+}
+
+.fcopyright a:hover {
+    color: black;
+    text-decoration: none;
 }
