@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden !important;
+}
+
 body a {
     text-decoration: none;
     color: white;
@@ -38,6 +42,11 @@ body a {
     justify-content: center;
 }
 
+.nav-logo a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-links{
     display: flex;
     flex-direction: row;
@@ -55,6 +64,12 @@ body a {
 
 .main-content a {
     text-decoration: none;
+    color: black;
+}
+
+.main-content a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 /* Styling the hot new releases */
@@ -62,31 +77,9 @@ body a {
     color: black;
 }
 
-.new-releases {
-    display: grid;
-    grid-template-columns: 1fr repeat(2, 2fr) 1fr;
-    grid-template-rows: 40px 300px;
-}
-
-.hot-releases-title {
-    grid-column: 2 /span 2;
-    grid-row: 1;
-    border: 1px solid red;
-}
-
-.hot-releases-image1 {
-    grid-column: 2;
-    grid-row: 2;
-    border: 1px solid goldenrod;
-}
-
-.hot-releases-image2 {
-    grid-column: 3;
-    grid-row: 2;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 100%;
-    border: 1px solid aqua;
+.hot-releases-title a:hover {
+    color: black;
+    text-decoration: none;
 }
 
 /* Styling the cardbody section */
