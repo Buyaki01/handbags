@@ -75,7 +75,7 @@ body a {
 /* Styling the hot new releases */
 .new-releases {
     display: grid;
-    grid-template-columns:  1fr 2fr 2fr 1fr;
+    grid-template-columns:  1fr 2fr 1fr 1fr;
     grid-template-rows: 50px 550px 550px;
     grid-column-gap: 10px;
 }
