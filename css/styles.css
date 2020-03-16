@@ -83,7 +83,7 @@ body a {
 }
 
 /* Styling the cardbody section */
-.seemore-btn , .showmore-btn, .view-more-btn, .amount-btn > span, .complete-btn > span {
+.seemore-btn , .showmore-btn, .view-more-btn, .amount-btn > span, .complete-btn > span, .add-to-cart-btn > span {
     color: white;
 } 
 
@@ -102,11 +102,12 @@ body a {
     text-decoration: none;
 }
 
-/*.complete-btn span {
-    color: white;
-} */
-
 .complete-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.add-to-cart-btn:hover {
     color: white;
     text-decoration: none;
 }
@@ -135,6 +136,69 @@ body a {
 .btn {
     background-color: #d40d9a;
     color: white;
+}
+
+/* Styling the handbag-details section */
+.colors .maroon {
+    background-color: maroon !important;
+}
+
+.hotpink {
+    background-color: hotpink;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.orchid {
+    background-color: orchid;
+}
+
+.item-selected {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 100px 350px;
+}
+
+.item-selected .item-img {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.item-selected .item-description {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.related-products {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 50px 600px;
+    grid-column-gap: 10px;
+}
+
+.related-products-title {
+    grid-row: 1;
+    grid-column: 2 /span 3;
+}
+
+.related-products1 {
+    grid-row: 2;
+    grid-column: 2;
+    border: 1px solid green;
+}
+
+.related-products2 {
+    grid-row: 2;
+    grid-column: 3;
+    border: 1px solid blue;
+}
+
+.related-products3 {
+    grid-row: 2;
+    grid-column: 4;
+    border: 1px solid yellow;
 }
 
 /* Styling the add to cart page */
