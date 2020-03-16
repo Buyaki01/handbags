@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html {
+html  {
     overflow-x: hidden !important;
 }
 
@@ -159,7 +159,7 @@ body a {
 /*Styling the top rated section */
 .top-rated {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-columns: 2fr 3fr 3fr 3fr 2fr;
     grid-template-rows: 50px 550px;
     grid-column-gap: 10px;
     background-color: rgb(146,212,59);
@@ -192,6 +192,7 @@ body a {
     grid-template-rows: 550px 550px 50px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
+    background-color: white;
 }
  .more-img1 {
      grid-row: 1;
@@ -226,6 +227,32 @@ body a {
  .more-img7 {
      grid-row: 3;
      grid-column: 2 /span 3;
+ }
+
+ /* Styling the comment section */
+ .reviews {
+     display: grid;
+     grid-template-columns: 2fr 4fr 4fr 2fr;
+     grid-template-rows: 50px 200px;
+     grid-column-gap: 10px;
+     background-color: rgb(146,212,59);
+ }
+
+ .reviews-title {
+     grid-row: 1;
+     grid-column: 2 / span 2;
+ }
+
+ .reviews1 {
+     grid-row: 2;
+     grid-column: 2;
+     background-color: white;
+ }
+
+ .reviews2 {
+     grid-row: 2;
+     grid-column: 3;
+     background-color: white;
  }
 
 
