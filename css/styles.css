@@ -83,6 +83,10 @@ body a {
 }
 
 /* Styling the cardbody section */
+.seemore-btn , .showmore-btn, .view-more-btn, .amount-btn > span, .complete-btn > span {
+    color: white;
+} 
+
 .seemore-btn:hover {
     color: white;
     text-decoration: none;
@@ -94,6 +98,15 @@ body a {
 }
 
 .view-more-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/*.complete-btn span {
+    color: white;
+} */
+
+.complete-btn:hover {
     color: white;
     text-decoration: none;
 }
