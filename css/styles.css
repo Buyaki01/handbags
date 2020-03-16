@@ -93,6 +93,11 @@ body a {
     text-decoration: none;
 }
 
+.view-more-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .money {
     color: #d40d9a;
 }
