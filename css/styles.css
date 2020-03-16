@@ -27,7 +27,7 @@ body a {
     color: white;
 }
 
-.top-nav, .main-content, .top-rated {
+.top-nav, .main-content {
     background-color: rgb(146,212,59);
     color: white;
 }
@@ -137,6 +137,78 @@ body a {
     background-color: #d40d9a;
     color: white;
 }
+
+/*Styling the top rated section */
+.top-rated {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 50px 550px;
+    grid-column-gap: 10px;
+    background-color: rgb(146,212,59);
+}
+
+.top-rated-title {
+    grid-row: 1;
+    grid-column: 2/ span 3;
+}
+
+.top-rated1 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.top-rated2 {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.top-rated3 {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+/*Styling the more-img section */
+.more-img {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 550px 550px 50px;
+    grid-column-gap: 10px;
+}
+ .more-img1 {
+     grid-row: 1;
+     grid-column: 2;
+ }
+
+ .more-img2 {
+     grid-row: 1;
+     grid-column: 3;
+ }
+
+ .more-img3 {
+     grid-row: 1;
+     grid-column: 4;
+ }
+
+ .more-img4 {
+     grid-row: 2;
+     grid-column: 2;
+ }
+
+ .more-img5 {
+     grid-row: 2;
+     grid-column: 3;
+ }
+
+ .more-img6 {
+     grid-row: 2;
+     grid-column: 4;
+ }
+
+ .more-img7 {
+     grid-row: 3;
+     grid-column: 2 /span 3;
+ }
+
 
 /* Styling the handbag-details section */
 .colors .maroon {
