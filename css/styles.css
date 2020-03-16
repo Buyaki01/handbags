@@ -73,13 +73,31 @@ body a {
 }
 
 /* Styling the hot new releases */
-.hot-releases-title a {
-    color: black;
+.new-releases {
+    display: grid;
+    grid-template-columns:  1fr 2fr 2fr 1fr;
+    grid-template-rows: 50px 550px 550px;
+    grid-column-gap: 10px;
 }
 
-.hot-releases-title a:hover {
-    color: black;
-    text-decoration: none;
+.new-releases .hot-releases-title {
+    grid-row: 1;
+    grid-column: 2 / span 2;
+}
+
+.new-releases .new-releases1 {
+    grid-row: 2 / span 2;
+    grid-column: 2;
+}
+
+.new-releases .new-releases2 {
+    grid-row: 2;
+    grid-column: 3;
+}    
+
+.new-releases .new-releases3 {
+    grid-row: 3;
+    grid-column: 3;
 }
 
 /* Styling the cardbody section */
@@ -173,6 +191,7 @@ body a {
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-template-rows: 550px 550px 50px;
     grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
  .more-img1 {
      grid-row: 1;
