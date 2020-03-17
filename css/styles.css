@@ -33,13 +33,11 @@ body a {
 }
 
 .top-nav {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
+    width: 100% !important;
 }
 
-.nav-logo {
-    display: flex;
-    justify-content: center;
+.main-content {
+    width: 100% !important;
 }
 
 .nav-logo a:hover {
@@ -47,16 +45,9 @@ body a {
     color: white;
 }
 
-.nav-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
 .nav-links a, .fa-heart, .fa-shopping-cart {
     margin-right: 30px;
-} 
+}
 
 .main-content-title {
     bottom: -147px;
