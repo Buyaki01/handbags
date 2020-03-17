@@ -101,7 +101,7 @@ body a {
 }
 
 /* Styling the cardbody section */
-.seemore-btn , .showmore-btn, .view-more-btn, .amount-btn > span, .complete-btn > span, .add-to-cart-btn > span {
+.seemore-btn , .showmore-btn, .view-more-btn, .complete-btn > span, .add-to-cart-btn > span, .see-details-btn {
     color: white;
 } 
 
@@ -126,6 +126,11 @@ body a {
 }
 
 .add-to-cart-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.see-details-btn:hover {
     color: white;
     text-decoration: none;
 }
@@ -255,6 +260,99 @@ body a {
      background-color: white;
  }
 
+ /*Styling handbags.html */
+ .handbags-content {
+     display: grid;
+     grid-template-columns: 1fr repeat(4, 2fr) 1fr;
+     grid-template-rows: 50px repeat(5, 480px) 30px;
+     grid-column-gap: 10px;
+     grid-row-gap: 10px;
+ }
+
+ .handbags-content1 {
+     grid-row: 2;
+     grid-column: 2;
+ }
+
+ .handbags-content2 {
+     grid-row: 2;
+     grid-column: 3;
+ }
+
+ .handbags-content3 {
+     grid-row: 2;
+     grid-column: 4;
+ }
+
+ .handbags-content4 {
+     grid-row: 2;
+     grid-column: 5;
+ }
+
+ .handbags-content5 {
+     grid-row: 3;
+     grid-column: 3;
+ }
+
+ .handbags-content6 {
+     grid-row: 3;
+     grid-column: 4;
+ }
+
+ .handbags-content7 {
+     grid-row: 3;
+     grid-column: 5;
+ }
+
+ .handbags-content8 {
+     grid-row: 4;
+     grid-column: 3;
+ }
+
+ .handbags-content9 {
+     grid-row: 4;
+     grid-column: 4;
+ }
+
+ .handbags-content10 {
+     grid-row: 4;
+     grid-column: 5;
+ }
+
+ .handbags-content11 {
+     grid-row: 5;
+     grid-column: 3;
+ }
+
+ .handbags-content12 {
+     grid-row: 5;
+     grid-column: 4;
+ }
+
+ .handbags-content13 {
+     grid-row: 5;
+     grid-column: 5;
+ }
+
+ .handbags-content14 {
+     grid-row: 6;
+     grid-column: 3;
+ }
+
+ .handbags-content15 {
+     grid-row: 6;
+     grid-column: 4;
+ }
+
+ .handbags-content16 {
+     grid-row: 6;
+     grid-column: 5;
+ }
+
+ .handbags-content17 {
+     grid-row: 7;
+     grid-column: 3 /span 2;
+ }
 
 /* Styling the handbag-details section */
 .colors .maroon {
