@@ -84,7 +84,7 @@ body a {
 
 .new-releases {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
   grid-template-rows: 50px 550px 550px;
   grid-column-gap: 10px;
 }
@@ -481,7 +481,7 @@ body a {
   }
 
   .collaps {
-    display: initial;
+    display: initial !important;
   }
 
   .main-content-title {
@@ -509,7 +509,7 @@ body a {
   }
 
   .collaps {
-    display: initial;
+    display: initial !important;
   }
 
   .main-content-title {
