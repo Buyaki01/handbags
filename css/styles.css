@@ -403,11 +403,6 @@ body a {
   background-color: orchid;
 }
 
-.customer-details {
-  display: flex;
-  padding: 50px;
-}
-
 .item-selected {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
@@ -459,6 +454,16 @@ body a {
 .items-selected a:hover {
   color: black;
   text-decoration: none;
+}
+
+.complete {
+  display: flex;
+  justify-content: center;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .footer-items {
@@ -806,21 +811,18 @@ body a {
     grid-column: 3;
   }
 
-  .customer-details {
-    display: grid;
-    padding: 0;
-  }
-
-  .contact-information {
-    width: 100%;
-  }
-
   .items-selected {
-    width: 100%;
+    margin-top: 20px;
   }
 
-  .items-selected1 .media-left {
-    width: 100%;
+  .complete {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .total {
+    display: flex;
+    justify-content: flex-start;
   }
 }
 
