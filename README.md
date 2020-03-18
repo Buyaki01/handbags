@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Feel free to check the [issues page](https://github.com/Buyaki01/news-week/issues).
+Feel free to check the [issues page](https://github.com/Buyaki01/handbags/issues).
 
 ## Attributions and Credit
 Special thanks to <a href="https://dribbble.com/altezzik">  Michael D on Dribbble </a>
