@@ -71,15 +71,22 @@ body a {
 }
 
 .top-nav {
-  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .nav-logo {
-  border: 1px solid green;
+  padding-left: 10px;
+}
+
+.nav-links {
+  display: flex;
 }
 
 .nav-link-icons {
-  border: 1px solid blue;
+  width: 30%;
+  padding-top: 15px;
 }
 
 .main-content {
@@ -396,6 +403,11 @@ body a {
   background-color: orchid;
 }
 
+.customer-details {
+  display: flex;
+  padding: 50px;
+}
+
 .item-selected {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
@@ -449,22 +461,6 @@ body a {
   text-decoration: none;
 }
 
-.customer-details {
-  display: grid;
-  grid-template-columns: 1fr 3fr 2fr 1fr;
-  grid-template-rows: 50px 600px;
-}
-
-.contact-information {
-  grid-row: 2;
-  grid-column: 2;
-}
-
-.items-selected {
-  grid-row: 2;
-  grid-column: 3;
-}
-
 .footer-items {
   background-color: white !important;
 }
@@ -488,6 +484,28 @@ body a {
     line-height: 14px;
   }
 
+  .handbags-link {
+    display: none;
+  }
+
+  .handbag-details-link {
+    display: none;
+  }
+
+  .collaps {
+    display: initial;
+  }
+
+  .nav-link-icons {
+    width: 50%;
+  }
+
+  .collaps,
+  .fa-heart,
+  .fa-shopping-cart {
+    margin-right: 30px;
+  }
+
   .main-content {
     display: grid;
     grid-template-columns: 100%;
@@ -497,16 +515,12 @@ body a {
   .main-content-title {
     grid-row: 1;
     grid-column: 1;
-    padding-left: 35px;
+    text-align: center;
   }
 
   .main-content-img {
     grid-row: 2;
     grid-column: 1;
-  }
-
-  .new-releases1 {
-    padding: 2px;
   }
 
   .new-releases1 img {
@@ -516,7 +530,7 @@ body a {
   .new-releases {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50px repeat(3, 550px);
+    grid-template-rows: 50px repeat(3, 410px);
   }
 
   .new-releases .hot-releases-title {
@@ -527,16 +541,19 @@ body a {
   .new-releases .new-releases1 {
     grid-row: 2;
     grid-column: 1;
+    padding: 20px;
   }
 
   .new-releases .new-releases2 {
     grid-row: 3;
     grid-column: 1;
+    padding: 25px;
   }
 
   .new-releases .new-releases3 {
     grid-row: 4;
     grid-column: 1;
+    padding: 25px;
   }
 
   .top-rated img {
@@ -546,7 +563,7 @@ body a {
   .top-rated {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 50px repeat(3, 550px);
+    grid-template-rows: 50px repeat(3, 420px);
     background-color: rgb(146, 212, 59);
   }
 
@@ -558,6 +575,7 @@ body a {
   .top-rated1 {
     grid-row: 2;
     grid-column: 1;
+    padding: 10px;
   }
 
   .top-rated2 {
@@ -577,7 +595,7 @@ body a {
   .more-img {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(6, 550px) 40px;
+    grid-template-rows: repeat(6, 430px) 40px;
     background-color: white;
   }
 
@@ -651,7 +669,7 @@ body a {
   .handbags-content {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(8, 480px) 30px;
+    grid-template-rows: repeat(8, 450px) 30px;
   }
 
   .handbags-content1 {
@@ -786,6 +804,23 @@ body a {
   .related-products3 {
     grid-row: 2;
     grid-column: 3;
+  }
+
+  .customer-details {
+    display: grid;
+    padding: 0;
+  }
+
+  .contact-information {
+    width: 100%;
+  }
+
+  .items-selected {
+    width: 100%;
+  }
+
+  .items-selected1 .media-left {
+    width: 100%;
   }
 }
 
