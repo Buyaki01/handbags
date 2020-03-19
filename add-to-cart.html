@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handbags</title>
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="stylesheet" href="handbags.html">
+    <link rel="stylesheet" href="handbag-details.html">
+    <link rel="stylesheet" href="add-to-cart.html">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+    <main class="container-fluid">
+
+        <nav class="top-nav mb-3">
+            <div class="nav-logo">
+                <h1> <i class="fas fa-shopping-bag"></i> <a href="index.html" class="text-nowrap"> Handbag Collections
+                    </a> </h1>
+            </div>
+            <div class="nav-link-icons">
+                <ul class="nav-links">
+                    <li class="handbags-link"> <a href="handbags.html"> Handbags </a> </li>
+                    <li class="handbag-details-link"> <a href="handbag-details.html"> Handbag Details </a></li>
+                    <li class="nav-icons">
+                        <button class="fas fa-bars collaps">
+                        </button>
+                        <i class="fas fa-heart"></i>
+                        <a href="add-to-cart.html"> <i class="fas fa-shopping-cart"></i> </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="customer-details row">
+            <div class="contact-information col-xl-7 col-lg-7 col-md-7 col-12">
+                <h3> Contact Information </h3>
+                <form action="#">
+                    <label for="fname" class="pt-4 pr-4"> First Name: </label>
+                    <input type="text" placeholder="First Name" class="w-50" id="fname" name="fname"> <br> <br>
+                    <label for="lname" class="pr-4"> Last Name: </label>
+                    <input type="text" placeholder="Last Name" class="w-50" id="lname" name="lname"> <br> <br>
+                    <label for="telno" class="pr-4"> Phone No: </label>
+                    <input type="number" placeholder="+254 722554294" class="w-50" id="telno" name="telno"> <br> <br>
+                </form>
+
+                <h4 class="pt-4"> Recipient's Delivery Address </h4>
+                <form action="#">
+                    <label for="idnumber" class="pt-4 pr-4"> ID Number: </label>
+                    <input type="number" placeholder="Id Number" class="w-50" id="idnumber" name="idnumber"> <br> <br>
+                    <label for="companyname" class="pr-4"> Company Name: </label>
+                    <input type="text" placeholder="Company Name or Estate Name" class="w-50" id="companyname"
+                        name="companyname"> <br> <br>
+                    <label for="apartmentname" class="pr-4"> Apartment Name: </label>
+                    <input type="text" placeholder="Apartment, Suite, etc (optional)" class="w-50" id="apartmentname"
+                        name="apartmentname"> <br> <br>
+                </form>
+
+                <h4 class="pt-4"> Additional Information </h4>
+                <form action="#">
+                    <label for="moreinfo" class="pr-4"> <span class="more-info"> More Information: </span> </label>
+                    <textarea name="moreinfo" id="moreinfo" cols="30" rows="5">
+                </textarea>
+                </form>
+
+                <div class="complete pt-4">
+                    <a href="index.html" class="btn complete-btn"> <span> Complete </span> </a>
+                </div>
+            </div>
+
+            <div class="items-selected col-xl-5 col-lg-5 col-md-5 col-12">
+                <div class="items-selected-title">
+                    <h4> <a href="#"> Your Basket </a> </h4>
+                </div>
+                <div class="row media items-selected1 border-top border-bottom p-5">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-12 media-left">
+                        <a href="handbags.html"> <img
+                                src="https://www.freepnglogos.com/uploads/women-bag-png/download-women-bag-transparent-png-image-pngimg-5.png"
+                                class="media-object img-responsive w-75" alt="#"> </a>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-5 col-12 media-body">
+                        <h4 class="media-heading text-nowrap">Sling Bag</h4>
+                        <p class="text-nowrap"> Price: sh.700 </p>
+                        <p class="text-nowrap"> Quantity: 3 </p>
+                    </div>
+                </div>
+
+                <div class="row media items-selected2 border-bottom p-5">
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-12 media-left">
+                        <a href="handbags.html"> <img src="asset/images/moreimg1.png"
+                                class="media-object img-responsive w-75" alt="#"> </a>
+                    </div>
+                    <div class="col-xl-7 col-lg-5 col-md-5 col-12 media-body">
+                        <h4 class="media-heading text-nowrap">Hobo Bag</h4>
+                        <p class="text-nowrap"> Price: sh.880 </p>
+                        <p class="text-nowrap"> Quantity: 5 </p>
+                    </div>
+                </div>
+
+                <div class="total pt-2">
+                    Total: sh.6,500
+                </div>
+            </div>
+        </div>
+
+        <section class="reviews mt-3 pt-5 pb-4">
+            <h4 class="reviews-title"> Reviews </h4>
+            <div class="media reviews1">
+                <img class="align-self-start mr-3 img-responsive w-25" src="asset/images/comment-img.jpg"
+                    alt="Generic placeholder image">
+                <div class="media-body">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 21 reviews
+                    </div>
+                    <h5 class="mt-0"> Ritta Buyaki <span> 09/03/2020 </span> </h5>
+                    <p> Amazing</p>
+                    <div>
+                        The team was very helpful and warm, the delivery was done as expected and the products were
+                        amazing.
+                    </div>
+                </div>
+            </div>
+            <div class="media reviews2">
+                <img class="align-self-start mr-3 img-responsive w-25" src="asset/images/comment-img.jpg"
+                    alt="Generic placeholder image">
+                <div class="media-body">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 21 reviews
+                    </div>
+                    <h5 class="mt-0"> Allan Francis <span> 09/03/2019 </span> </h5>
+                    <p> Quick Delivery </p>
+                    <div>
+                        It was just amazing especially the personalized gift card and the packaging.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside class="map-direction mt-3">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6405032166413!2d36.93848311410166!3d-1.392229036141991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0cbb00000001%3A0xfc56df31d6714105!2sMlolongo%20Township!5e0!3m2!1sen!2ske!4v1584367558948!5m2!1sen!2ske"
+                style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="w-100"></iframe>
+        </aside>
+    </main>
+
+    <hr>
+
+    <footer class="container-fluid footer-items">
+        <div class="row">
+            <div class="col-xl-2 col-lg-3 col-md-3 col-3">
+                <button class="btn feedback-btn w-100"> <span class="pl-0 pr-5"> Subscribe </span> <i
+                        class="fas fa-envelope pr-0"></i> </button>
+            </div>
+
+            <div class="col-xl-2 col-lg-3 col-md-3 col-3">
+                <div> +254 722554294 </div>
+                <div> rittahbuyaki@gmail.com </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-3 col-3">
+                <p> Mocha Plaza, Opposite Tuskys Echiro </p>
+                <p> Ground Floor, room 1</p>
+                <p>P.O Box 2358-40200 Kisii</p>
+            </div>
+
+            <div class="col-xl-5 col-lg-3 col-md-3 col-3">
+                <div class="fcopyright">
+                    <a href="#"> Terms and conditions apply </a> © 1996-2020, handcollections.com, Inc.
+                </div>
+                <div class="footer-logos">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-paypal"></i>
+                    <i class="fab fa-amazon-pay"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

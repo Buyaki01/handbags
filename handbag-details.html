@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handbags</title>
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="stylesheet" href="handbags.html">
+    <link rel="stylesheet" href="handbag-details.html">
+    <link rel="stylesheet" href="add-to-cart.html">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+    <main class="container-fluid">
+
+        <nav class="top-nav mb-3">
+            <div class="nav-logo">
+                <h1> <i class="fas fa-shopping-bag"></i> <a href="index.html" class="text-nowrap"> Handbag Collections
+                    </a> </h1>
+            </div>
+            <div class="nav-link-icons">
+                <ul class="nav-links">
+                    <li class="handbags-link"> <a href="handbags.html"> Handbags </a> </li>
+                    <li class="handbag-details-link"> <a href="handbag-details.html"> Handbag Details </a></li>
+                    <li class="nav-icons">
+                        <button class="fas fa-bars collaps">
+                        </button>
+                        <i class="fas fa-heart"></i>
+                        <a href="add-to-cart.html"> <i class="fas fa-shopping-cart"></i> </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="item-selected p-5">
+            <div class="item-img">
+                <a href="#"> <img src="asset/images/moreimg5.png" alt="#" class="img-responsive w-50"> </a>
+            </div>
+            <div class="item-description">
+                <h4> Clutch Bag</h4>
+                <p class="sizes"> sizes Available:
+                    <span> Small </span>
+                    <span> Medium </span>
+                    <span> Large </span>
+                    <span> Extra Large </span>
+                </p>
+                <p class="colors"> Colors Available:
+                    <input type="radio" id="maroon" name="color" value="maroon" class="maroon">
+                    <input type="radio" id="hotpink" name="color" value="hotpink" class="hotpink">
+                    <input type="radio" id="pink" name="color" value="pink" class="pink">
+                    <input type="radio" id="orchid" name="color" value="orchid" class="orchid">
+                </p>
+                <label for="quantity"> Quantity:</label>
+                <select id="quantity" name="quantity" size="1">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                    <option value="six">6</option>
+                    <option value="seven">7</option>
+                    <option value="eight">8</option>
+                    <option value="nine">9</option>
+                    <option value="ten">10</option>
+                </select><br><br>
+
+                <a href="add-to-cart.html" class="btn add-to-cart-btn"> <span> Add To Cart </span> </a>
+            </div>
+        </div>
+
+        <div class="related-products mb-4">
+            <h4 class="related-products-title"> Related Products </h4>
+            <div class="card related-products1 pt-5 pl-3">
+                <a href="handbags.html"> <img class="card-img-top img-responsive w-75" src="asset/images/mainimg.png"
+                        alt="Card image"> </a>
+                <div class="card-body">
+                    <h4 class="card-title"> <a href="#"> <span class="money"> Sh. 1200 </span> </a></h4>
+                    <p class="card-text"> Sling Bag, Leather </p>
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                        <p class="pt-3"> 15 reviews </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card related-products2 pt-5 pl-3">
+                <a href="handbags.html"> <img class="card-img-top img-responsive w-75"
+                        src="asset/images/hotrelease2.png" alt="Card image"> </a>
+                <div class="card-body">
+                    <h4 class="card-title"> <span class="money"> Sh.280 </span> </h4>
+                    <p class="card-text"> <a href="#"> Top-handle Bag, Designer </a> </p>
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                        <p class="pt-3"> 115 reviews </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card related-products3 pt-5 pl-3">
+                <a href="handbags.html"><img class="card-img-top img-responsive w-75" src="asset/images/hotrelease1.png"
+                        alt="Card image"> </a>
+                <div class="card-body">
+                    <h4 class="card-title"> <span class="money"> Sh.480 </span> </h4>
+                    <p class="card-text"> <a href="#"> Wristlets, Imported </a> </p>
+                    <div class="no-review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                        <p class="pt-3"> no review </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="reviews pt-3 pb-4">
+            <h4 class="reviews-title"> Reviews </h4>
+            <div class="media reviews1">
+                <img class="align-self-start mr-3 img-responsive w-25" src="asset/images/comment-img.jpg"
+                    alt="Generic placeholder image">
+                <div class="media-body">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 21 reviews
+                    </div>
+                    <h5 class="mt-0"> Ritta Buyaki <span> 09/03/2020 </span> </h5>
+                    <p> Amazing</p>
+                    <div>
+                        The team was very helpful and warm, the delivery was done as expected and the products were
+                        amazing.
+                    </div>
+                </div>
+            </div>
+            <div class="media reviews2">
+                <img class="align-self-start mr-3 img-responsive w-25" src="asset/images/comment-img.jpg"
+                    alt="Generic placeholder image">
+                <div class="media-body">
+                    <div class="review">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 21 reviews
+                    </div>
+                    <h5 class="mt-0"> Allan Francis <span> 09/03/2019 </span> </h5>
+                    <p> Quick Delivery </p>
+                    <div>
+                        It was just amazing especially the personalized gift card and the packaging.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside class="map-direction mt-3">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6405032166413!2d36.93848311410166!3d-1.392229036141991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0cbb00000001%3A0xfc56df31d6714105!2sMlolongo%20Township!5e0!3m2!1sen!2ske!4v1584367558948!5m2!1sen!2ske"
+                style="border: 0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="w-100"></iframe>
+        </aside>
+    </main>
+
+    <hr>
+
+    <footer class="container-fluid footer-items">
+        <div class="row">
+            <div class="col-xl-2 col-lg-3 col-md-3 col-3">
+                <button class="btn feedback-btn w-100"> <span class="pl-0 pr-5"> Subscribe </span> <i
+                        class="fas fa-envelope pr-0"></i> </button>
+            </div>
+
+            <div class="col-xl-2 col-lg-3 col-md-3 col-3">
+                <div> +254 722554294 </div>
+                <div> rittahbuyaki@gmail.com </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-3 col-3">
+                <p> Mocha Plaza, Opposite Tuskys Echiro </p>
+                <p> Ground Floor, room 1</p>
+                <p>P.O Box 2358-40200 Kisii</p>
+            </div>
+
+            <div class="col-xl-5 col-lg-3 col-md-3 col-3">
+                <div class="fcopyright">
+                    <a href="#"> Terms and conditions apply </a> © 1996-2020, handcollections.com, Inc.
+                </div>
+                <div class="footer-logos">
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-paypal"></i>
+                    <i class="fab fa-amazon-pay"></i>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
