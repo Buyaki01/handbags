@@ -14,6 +14,10 @@ In this project, I created four webpages: the index.html page (with a menu link 
 
 [Live Demo](https://hopeful-ptolemy-279901.netlify.com)
 
+## Presentation
+
+Feel free to check out this video explaining my project <a href="https://www.loom.com/share/99752a2122f044698f9194f3a54c5723"> here </a>
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
