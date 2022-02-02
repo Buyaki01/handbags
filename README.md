@@ -27,11 +27,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-👤 **Ritta Buyaki**
+👤 **Ritta Sweta**
 
 - Github: [@Buyaki01](https://github.com/Buyaki01)
 - Twitter: [@BuyakiRitta](https://twitter.com/BuyakiRitta)
-- Linkedin: [Ritta Buyaki](https://www.linkedin.com/in/ritta-buyaki-b12904128/)
+- Linkedin: [Ritta Sweta](https://www.linkedin.com/in/ritta-sweta/)
 
 ## 🤝 Contributing
 
