@@ -188,6 +188,11 @@ body a {
   color: #d40d9a;
 }
 
+.main-bag-img{
+  width: 300px;
+  margin-left: 60px;
+}
+
 .no-review {
   color: grey;
 }
@@ -484,6 +489,13 @@ body a {
   display: none;
 }
 
+@media only screen and (min-width: 1024px) {
+  .main-bag-img{
+    width: 500px;
+  }
+}
+
+
 @media only screen and (max-width: 767px) {
   * {
     font-size: 10px;
@@ -511,7 +523,7 @@ body a {
   .fa-shopping-cart {
     margin-right: 30px;
   }
-
+  
   .main-content {
     display: grid;
     grid-template-columns: 100%;
@@ -859,6 +871,11 @@ body a {
   .fa-heart,
   .fa-shopping-cart {
     margin-right: 30px;
+  }
+
+  .main-bag-img{
+    width: 400px;
+    margin: 80px 0 0 150px;
   }
 
   .main-content {
