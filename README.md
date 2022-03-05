@@ -12,7 +12,7 @@ In this project, I created four webpages: the index.html page (with a menu link 
 
 ## Live Demo
 
-[Live Demo](https://hopeful-ptolemy-279901.netlify.com)
+[Live Demo](https://elegant-fermat-c0fe66.netlify.app/)
 
 ## Presentation
 
